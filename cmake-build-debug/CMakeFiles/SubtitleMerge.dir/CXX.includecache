@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+H:/Programming/Programming/C++/SubtitleMerge/Block.h
+string
+-
+TimeStamp.h
+H:/Programming/Programming/C++/SubtitleMerge/TimeStamp.h
+
+H:/Programming/Programming/C++/SubtitleMerge/SubFile.h
+fstream
+-
+Block.h
+H:/Programming/Programming/C++/SubtitleMerge/Block.h
+
+H:/Programming/Programming/C++/SubtitleMerge/TimeStamp.h
+string
+-
+
+H:/Programming/Programming/C++/SubtitleMerge/main.cpp
+iostream
+-
+SubFile.h
+H:/Programming/Programming/C++/SubtitleMerge/SubFile.h
+
